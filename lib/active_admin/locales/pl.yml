@@ -61,3 +61,17 @@ pl:
       title_content: "Komentarze (%{count})"
       errors:
         empty_text: "Komentarz nie został zapisany, zawartość była pusta."
+    devise:
+      login:
+        title: "Logownanie"
+        remember_me: "Zapamiętaj mnie"
+        submit: "Zaloguj się"
+      reset_password:
+        title: "Przypominanie hasła"
+        submit: "Wyślij instrukcje"
+      change_password:
+        title: "Zmiana hasła"
+        submit: "Zmień hasło"
+      links:
+        sign_in: "Logownaie"
+        forgot_your_password: "Przypominanie hasła"
