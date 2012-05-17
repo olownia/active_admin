@@ -7,7 +7,7 @@
       f.input :password_confirmation
     end
     f.actions do
-      f.action :submit, :label => t('active_admin.devise.change_password.submit'), :button_html => { :value => "Change my password" }
+      f.action :submit, :label => t('active_admin.devise.change_password.submit')
       f.input :reset_password_token, :as => :hidden, :value => resource.reset_password_token
     end
   end %>
