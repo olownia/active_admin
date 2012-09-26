@@ -63,7 +63,7 @@ pl:
         empty_text: "Komentarz nie został zapisany, zawartość była pusta."
     devise:
       login:
-        title: "Logownanie"
+        title: "Logowanie"
         remember_me: "Zapamiętaj mnie"
         submit: "Zaloguj się"
       reset_password:
@@ -73,5 +73,5 @@ pl:
         title: "Zmiana hasła"
         submit: "Zmień hasło"
       links:
-        sign_in: "Logownaie"
+        sign_in: "Logowanie"
         forgot_your_password: "Przypominanie hasła"
