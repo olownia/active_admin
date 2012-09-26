@@ -6,7 +6,7 @@
     f.inputs do
       Devise.authentication_keys.each { |key| f.input key, :input_html => {:autofocus => true}}
       f.input :password
-      f.input :remember_me, :label => t('active_admin.devise.login.remember_me'), :as => :boolean, :if =>  resource_name.respond_to?(:remember_me)
+      f.input :remember_me, :label => t('active_admin.devise.login.remember_me'), :as => :boolean if resource_name.respond_to?(:remember_me)
     end
     f.actions do
       f.action :submit, :label => t('active_admin.devise.login.submit')
